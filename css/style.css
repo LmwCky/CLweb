@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+
+/*index */
+.ind_imgbox{
+    width: 100%;
+    display: flex;
+}
+.ind_box_left{
+    width: 50%;
+    height: 660px;
+    /*border: 1px solid #62e778;*/
+}
+.ind_box_right{
+    width: 50%;
+    height: 660px;
+    /*border: 1px solid #d22b26;*/
+}
+.ind_imgleft {
+    width: 100%;
+    height: 100%;
+}
+.ind_imgright{
+    width: 100%;
+    height: 100%;
+}
+/*index end*/
