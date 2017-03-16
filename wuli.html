@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>物理</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/coolShow.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/coolShow.js"></script>
+    <!--<script src="js/jquery.js"></script>-->
+</head>
+<body>
+<!--<body style = "background:#ecf0f1;">-->
+<div class="sciencelogo"></div>
+
+<ul class="navigation">
+    <li><a href="index.html">主页</a></li>
+    <li><a href="wuli.html">物理</a></li>
+    <li><a href="huaxue.html">化学</a></li>
+    <li><a href="shengwu.html">生物</a></li>
+</ul>
+
+<!--<center><p style = "color:#334960">点击图标进行展示</p></center>-->
+<div class = "main">
+    <div id = "coolShow"></div>
+    <div id = "handBar"></div>
+</div>
+
+<script type="text/javascript">
+    /*定义需要展示的图片以及图片的展示时间*/
+    $(document).ready(function() {
+        $('#coolShow').coolShow({
+            imgSrc:['wuli(1).png','img/wuli(2).png','img/wuli(3).png'],
+            speed:40
+        });
+    });
+</script>
+
+</body>
+</html>

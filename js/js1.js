@@ -19,3 +19,5 @@ $('.mask2').mouseout(function () {
         opacity:'0.6'
     },"slow");
 });
+
+
